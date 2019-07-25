@@ -1,0 +1,11 @@
+.cardface {
+    text-align: center;
+    padding: 20px;
+}
+
+.bioImage {
+    width: 90%;
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+}

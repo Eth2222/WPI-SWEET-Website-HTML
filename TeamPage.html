@@ -1,27 +1,72 @@
 <head>
 
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="SWEETProjectCustom.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-    
+
 </head>
 
-<div id="container" style = "width:741px">
+
+<div style="width: 720px">
 
 
-<div class="mdc-layout-grid">
-  <div class="mdc-layout-grid__inner">
-    <div class="mdc-layout-grid__cell">
-      <div class="mdc-card demo-card">
-        <div style="margin: auto"> 
-            <img src="https://wp.wpi.edu/sweet/files/2019/07/EmilyPerlowBio-300x300.jpg" class="mdc-card__media mdc-card__media--16-9 demo-card__media" /></a>        
-            <h2>Our Changing Planet</h2>
-        <h5 class="demo-card__subtitle mdc-typography mdc-typography--subtitle2">by Kurt Wagner</h5>
-        </div> 
-      </div>
+    <h2 style="text-align: center; padding: 10px">Mission</h2>
+    <br>
+
+    <h2 style="text-align: center; padding: 10px">Team</h2>
+    <br>
+
+    <div class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-card">
+                    <div class="cardFace" style="text-align: center; padding:10px">
+                        <img class="bioImage" src="https://wp.wpi.edu/sweet/files/2019/07/EmilyPerlowBio-300x300.jpg" />
+                        <h2>Emily Perlow</h2>
+                        <h5>Assistant Dean of Students</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-card">
+                    <div class="cardFace" style="text-align: center; padding:10px">
+                        <img class="bioImage" src="https://wp.wpi.edu/sweet/files/2019/07/ahp.jpg" />
+                        <button class="mdc-button mdc-button--raised" style="padding: 10px;">Adrienne
+              Hall-Phillips</button>
+                        <h5>Associate Professor</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-card">
+                    <div class="cardFace" style="text-align: center; padding:10px">
+                        <img class="bioImage" src="https://wp.wpi.edu/sweet/files/2019/07/pastapletonbio.jpg" /></a>
+                        <h2>Patricia Stapleton</h2>
+                        <h5>--</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="mdc-layout-grid__cell">
+                <div class="mdc-card">
+                    <div class="cardFace" style="text-align: center; padding:10px">
+                        <img class="bioImage" src="https://wp.wpi.edu/sweet/files/2019/07/ProfStoddardBio.jpg" /></a>
+                        <h2>Elisabeth 'Lisa' Stoddard</h2>
+                        <h5>Assistant Teaching Professor</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="mdc-layout-grid__cell"></div>
-    <div class="mdc-layout-grid__cell"></div>
-  </div>
 </div>
 
-</div>
+
+<script>
+    import {
+        MDCRipple
+    } from '@material/ripple';
+
+    const selector = '.mdc-button, .mdc-icon-button, .mdc-card__primary-action';
+    const ripples = [].map.call(document.querySelectorAll(selector), function(el) {
+        return new MDCRipple(el);
+    });
+</script>
