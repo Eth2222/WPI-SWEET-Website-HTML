@@ -12,8 +12,20 @@
         border-radius: 50%;
         display: inline-block;
         position: relative;
+        margin: 0 Auto;
     }
     
     .mdc-button {
         font-family: inherit;
+    }
+    
+    .bioContainer {
+        width: 10%;
+        text-align: center;
+        margin: 0 Auto;
+    }
+    
+    .bioImageContainer {
+        width: 100%;
+        text-align: center;
     }

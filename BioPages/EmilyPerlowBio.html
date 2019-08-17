@@ -1,3 +1,17 @@
+<head>
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="SWEETProjectCustom.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+</head>
+
+
+<div class="bioimageContainer" style="text-align: center;">
+    <div class="bioContainer" style="text-align: center;">
+        <img class="bioImage" src="https://wp.wpi.edu/sweet/files/2019/07/EmilyPerlowBio-300x300.jpg" style="text-align: center;" />
+    </div>
+</div>
 <p>
     Emily Perlow is Assistant Dean of Students. She works at WPI to manage the CARE program, support student conduct, and advance the Student Affairs Division strategic planning and assessment efforts in addition to supporting the work of Student Activities
     and Dining Services. One of her favorite functions is to analyze the environment on campus and to work to remove barriers that affect student success. She received a doctorate from the University Massachusetts-Amherst, completing a dissertation exploring
@@ -6,3 +20,16 @@
     serves as Chair of the Association of Fraternity Advisors Research Committee and incoming chair of the NASPA Fraternity/Sorority Knowledge Community. As a scholar-practitioner, her interests include analyzing systems, processes and cultures that inhibit
     student success, enhancing the experiences of marginalized populations in the STEM pipeline, deviant behavior among college populations, particularly hazing, and masculine expression among college men.
 </p>
+
+
+
+<script>
+    import {
+        MDCRipple
+    } from '@material/ripple';
+
+    const selector = '.mdc-button, .mdc-icon-button, .mdc-card__primary-action';
+    const ripples = [].map.call(document.querySelectorAll(selector), function(el) {
+        return new MDCRipple(el);
+    });
+</script>
