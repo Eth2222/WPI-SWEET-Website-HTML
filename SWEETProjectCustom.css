@@ -1,31 +1,31 @@
-    .cardface {
-        text-align: center;
-        padding: 20px;
-    }
-    
-    .mdc-card:hover {
-        box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
-    }
-    
-    .bioImage {
-        width: 90%;
-        border-radius: 50%;
-        display: inline-block;
-        position: relative;
-        margin: 0 Auto;
-    }
-    
-    .mdc-button {
-        font-family: inherit;
-    }
-    
-    .bioContainer {
-        width: 20%;
-        text-align: center;
-        margin: 0 Auto;
-    }
-    
-    .bioImageContainer {
-        width: 100%;
-        text-align: center;
-    }
+.cardface {
+    text-align: center;
+    padding: 20px;
+}
+
+.mdc-card:hover {
+    box-shadow: -1px 10px 29px 0px rgba(0, 0, 0, 0.8);
+}
+
+.bioImage {
+    width: 90%;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.mdc-button {
+    font-family: inherit;
+    height: 40px;
+}
+
+.bioContainer {
+    width: 20%;
+    text-align: center;
+    margin: 0 Auto;
+}
+
+.bioImageContainer {
+    width: 100%;
+    text-align: center;
+}
