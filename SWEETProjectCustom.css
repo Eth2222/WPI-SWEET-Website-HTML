@@ -1,6 +1,7 @@
-.cardface {
+.mdc-card {
     text-align: center;
     padding: 20px;
+    height: 100%;
 }
 
 .mdc-card:hover {
@@ -12,11 +13,13 @@
     border-radius: 50%;
     display: inline-block;
     position: relative;
+    padding: 10px;
 }
 
 .mdc-button {
     font-family: inherit;
     height: 40px;
+    padding: 5px;
 }
 
 .bioContainer {
