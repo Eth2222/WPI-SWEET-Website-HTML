@@ -29,8 +29,8 @@
 }
 
 .bioImageContainer {
-    width: 100%;
     text-align: center;
+    object-fit: cover;
 }
 
 .center {
@@ -59,4 +59,47 @@ h1,
 h2,
 h3 {
     padding: 10px;
+}
+
+
+/* Resources Page */
+
+.flexbox {
+    display: flex;
+    /* grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 10px; */
+    flex-direction: row;
+    height: 500px;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox>div {
+    border: solid;
+    margin: 10px;
+    width: 30%;
+    min-width: 250px;
+    height: 55%;
+}
+
+.flex-image {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title-in-card {
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    z-index: 99;
+}
+
+.no-padding {
+    padding: 0;
 }
